@@ -1,0 +1,36 @@
+body {
+  background: url("../images/clear.jpeg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  align-items: center;
+}
+
+.contain {
+  width: 600px;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+  color: white;
+  font-size: 1.25rem;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.search-box {
+  border-radius: 15px 0 15px 0;
+}
+
+.city {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.units {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
