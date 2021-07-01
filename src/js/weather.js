@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const getResult = async (query) => {
-  const key = 'd1b4490baf954b9a45f0e011f71bb87b';
+  const key = 'b78ffa7f320b87289c86ab51defc89ce';
   const city = document.querySelector('.location .city');
   const temp = document.querySelector('.current .temp');
   const weather = document.querySelector('.current .weather');
