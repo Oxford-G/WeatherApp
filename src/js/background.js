@@ -4,7 +4,7 @@ import rain from '../images/rain.jpg';
 import thunder from '../images/thunder.jpg';
 import snow from '../images/snow.jpg';
 
-function displayWeather(data) {
+const displayWeather = (data) => {
   switch (data.weather[0].main) {
     case 'Clear':
       document.body.style.backgroundImage = `url(${clearSky})`;

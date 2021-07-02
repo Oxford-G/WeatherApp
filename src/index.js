@@ -5,7 +5,7 @@ import changeTemp from './js/temp';
 
 const search = document.querySelector('.search-box');
 
-function setAction(e) {
+const setAction = (e) => {
   if (e.keyCode === 13) {
     getResult(search.value)
       .then((data) => displayWeather(data))
