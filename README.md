@@ -33,7 +33,7 @@ Text editor Get a browser like chrome or firefox in their recent versions Node.j
 
 ## Live link
 
-[live link](https://oxford-g.github.io/WeatherApp/index)
+[live link](https://oxford-g.github.io/WeatherApp/dist/index)
 
 ## Author
 
