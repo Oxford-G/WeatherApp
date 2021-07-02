@@ -26,6 +26,6 @@ const displayWeather = (data) => {
     default:
       break;
   }
-}
+};
 
 export default displayWeather;

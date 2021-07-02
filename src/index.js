@@ -11,6 +11,6 @@ const setAction = (e) => {
       .then((data) => displayWeather(data))
       .then(search.value = '');
   }
-}
+};
 search.addEventListener('keypress', setAction);
 changeTemp();
